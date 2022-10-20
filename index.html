@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down-menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">suraj</div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a href="#" class="active">about us</a></li>
+      <li><a href="#">home</a></li>
+      <li><a href="#">twitter</a></li>
+      <li><a href="#">instagram</a></li>
+      <li><a href="#">facebook</a></li>
+  </ul>
+</nav>
+
+<div class="banner">
+    <div class="animation-text">
+        <h1>i'm <span class="auto-type"></span></h1>
+    </div>
+
+    <div class="text">
+        <h1>www.jaiswarsuraj630@gmail.com</h1>
+        <h2>my name is suraj jaiswar</h2>
+        <p>i am frontend and backend webdevoloper</p>
+    </div>
+
+</div>
+
+
+
+
+<script>
+    var typed = new Typed(".auto-type", {
+
+strings: ["suraj jaiswar", "webdevoloper" , "frontend and backend"],
+
+typeSpeed: 150,
+backSpeed:150,
+loop: true
+})
+</script>
+    
+</body>
+</html>
